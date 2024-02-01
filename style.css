@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(89, 170, 237);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+}
+
+#btn-verificar, #btn-teste, #palavra {
+  border-radius: 4px;
+}
+
+#palavra{
+  width: 500px;
+  /* height: 350px; */
+  padding-bottom:  350px;
+}
+
+#btn-verificar{
+  margin-top: 10px;
+}
+
+/* .container {
+  display: inline-block;
+} */

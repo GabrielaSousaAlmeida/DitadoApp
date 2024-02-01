@@ -26,3 +26,7 @@ function teste() {
     })
     .catch(()=> alert('errado'));
 }
+
+window.onload = ()=>{
+  inputPalavra.focus();// metodo usado para defini o foco do  cursos no elemento.
+}
